@@ -18,7 +18,9 @@ Open the terminal:
 
     nios2-terminal
 
-Then Ctrl-C to exit the terminal
+Then `Ctrl-C` to exit the terminal
 
 You can also type into this terminal, but it doesn't echo what you type so you don't see what you are writting. Also each
-character is send one by one, it doesn't wait for a newline.
+character is send one by one, it doesn't wait for `Enter`. But that's not really a problem, actually it could be
+something good depending on the application and it's definetely better than not seeing any input at all or a crash as 
+it happens with the Nios II console built-in in the Nios II Software Build Tools.
