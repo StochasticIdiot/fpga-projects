@@ -29,3 +29,7 @@ For not that's all, I got what I wanted which was communicating with the Nios II
 but I would like to go into more deep to properly document what are those commands doing and then see if
 I can generate the BSP and compile the software directly from the command line.
 It would be great to avoid using GUI and have some script or Makefile that does everything for me.
+
+[Home](index.md)
+(I'm getting used to github pages, for now I'm using markdown as all I want is a fast way to document the things I do,
+someday I might spend some time to see if I can customize the theme, put top or side bars with links, etc)
