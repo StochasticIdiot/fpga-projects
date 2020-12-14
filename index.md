@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+## FPGA-Projects
 
-You can use the [editor on GitHub](https://github.com/StochasticIdiot/fpga-projects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I started playing with the Terasic DE0-nano board which has a Cyclone IV FPGA from Altera (now Intel). Everything is wonderful until you try to do something and it doesn't work. I was using Quartus 13.1 which was working fine but this version is quite old and I wanted to use the last version (currently 20.1.1), and that's when the nightmare began.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StochasticIdiot/fpga-projects/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+There are things that work and there are things that need some magical setup in order to work. Then I decided to start documenting all the magical stuff so, if I need to do it again, I have it everything in one place. Also I would like to use scripts so I can avoid using Quartus GUI and the Nios Software Builder as much as possible. Specially the Nios Software Builder which crashes a lot.
