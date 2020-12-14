@@ -9,3 +9,13 @@ The solution could be to just use the older version, and I was about to just do 
 Command-Line Tools" documentation](!https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/edh_ed51004.pdf).
 Ok, so... I can just call nios2-download to load the elf and nios2-terminal to see the terminal output. And it works!
 I can finally see the "Hello world".
+
+Upload the elf:
+``` nios2-download -g <file.elf> ```
+
+Open the terminal:
+``` nios2-terminal ```
+Then Ctrl-C to exit the terminal
+
+You can also type into this terminal, but it doesn't echo what you type so you don't see what you are writting. Also each
+character is send one by one, it doesn't wait for a newline.
