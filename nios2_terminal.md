@@ -8,4 +8,4 @@ run the program.
 The solution could be to just use the older version, and I was about to just do that when I found the ["Nios II
 Command-Line Tools" documentation](!https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/edh_ed51004.pdf).
 Ok, so... I can just call nios2-download to load the elf and nios2-terminal to see the terminal output. And it works!
-I can see the "Hello world".
+I can finally see the "Hello world".
