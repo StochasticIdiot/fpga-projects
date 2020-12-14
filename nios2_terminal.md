@@ -11,10 +11,14 @@ Ok, so... I can just call nios2-download to load the elf and nios2-terminal to s
 I can finally see the "Hello world".
 
 Upload the elf:
-``` nios2-download -g <file.elf> ```
+`
+nios2-download -g <file.elf>
+`
 
 Open the terminal:
-``` nios2-terminal ```
+`
+nios2-terminal
+`
 Then Ctrl-C to exit the terminal
 
 You can also type into this terminal, but it doesn't echo what you type so you don't see what you are writting. Also each
