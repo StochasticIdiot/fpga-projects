@@ -8,3 +8,6 @@ At the end this will be like a documentation hub where I will describe the setup
 
 ### Contents
 [Nios II Software from the command line](nios2_terminal.md)
+
+## Posts
+2020-12-15 [Wiki, Pages, Jekyll?](2020_12_15_1214_wiki_vs_pages.md)
