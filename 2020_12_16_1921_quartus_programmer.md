@@ -9,10 +9,12 @@ configuration too?
 "
 The Quartus Programmer can be used from the command line using `quartus_pgm`.
 To check for the different options you can run:
+
     quartus_pgm --help
 
 Now to program the FPGA throught the JTAG chain we specify the programming mode using `-m JTAG` and choose the
-file with `-o "p;file.sof"`.
+file with `-o "p;file.sof"`:
+
     quartus_pgm -m JTAG -o "p;<path_to_file>/file.sof"
 
 ## Reference
