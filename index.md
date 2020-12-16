@@ -11,3 +11,4 @@ At the end this will be like a documentation hub where I will describe the setup
 
 ## Posts
 2020-12-15 [Wiki, Pages, Jekyll?](2020_12_15_1214_wiki_vs_pages.md)
+2020-12-16 [Quartus programmer](2020_12_16_1921_quartus_programmer.md)
